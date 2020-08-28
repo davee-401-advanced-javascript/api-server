@@ -1,4 +1,18 @@
 {
-  "categories": [],
-  "products": []
-}; 
+  "categories": [
+    {
+      "id": 3,
+      "name": "changed using patch"
+    },
+    {
+      "name": "Brownies",
+      "id": 4
+    },
+    {
+      "random": "using put on swagger",
+      "id": 5
+    }
+  ],
+  "products": [],
+  "third": []
+}
