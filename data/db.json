@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "electronics",
+      "description": "electronic description"
+    },
+    {
+      "name": "kitchen",
+      "description": "cool Kitchen description",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "kitchen Towels",
+      "category": "kitchen",
+      "description": "fancy kitchen towels",
+      "price": 10,
+      "inStock": 20,
+      "id": 4
+    },
+    {
+      "name": "kitchen Towels",
+      "category": "kitchen",
+      "description": "fancy kitchen towels",
+      "price": 10,
+      "inStock": 20,
+      "id": 5
+    },
+    {
+      "name": "spatula",
+      "category": "kitchen",
+      "description": "wooden spatula",
+      "price": 12.99,
+      "inStock": 5,
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "defaultDescription",
+    "version" : "0.1",
+    "title" : "defaultTitle"
+  },
+  "paths" : {
+    "/products" : {
+      "get" : {
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Definition generated from Swagger Inspector",
+            "schema" : {
+              "$ref" : "#/definitions/Model3"
+            }
+          }
+        }
+      },
+      "post" : {
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/Model0"
+          },
+          "x-examples" : {
+            "application/json" : "{\n    \"name\": \"Frying Pan\",\n    \"category\": \"kitchen\",\n    \"description\": \"made from china\",\n    \"price\": 120,\n    \"inStock\": 32\n}\n"
+          }
+        } ],
+        "responses" : {
+          "201" : {
+            "description" : "Definition generated from Swagger Inspector",
+            "schema" : {
+              "$ref" : "#/definitions/Model4"
+            }
+          }
+        }
+      }
+    },
+    "/products/6" : {
+      "delete" : {
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/Model2"
+          },
+          "x-examples" : {
+            "application/json" : "{\n    \"name\": \"Frying Pan\",\n    \"category\": \"kitchen\",\n    \"description\": \"made from china\",\n    \"price\": 120,\n    \"inStock\": 32\n}\n"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Definition generated from Swagger Inspector",
+            "schema" : {
+              "$ref" : "#/definitions/Model5"
+            }
+          }
+        }
+      }
+    },
+    "/products/5" : {
+      "put" : {
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/Model1"
+          },
+          "x-examples" : {
+            "application/json" : "    {\n      \"name\": \"Fancy Towels\",\n      \"category\": \"bathroom\",\n      \"description\": \"fancy bathroom towels\",\n      \"price\": 10,\n      \"inStock\": 20\n    }\n"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Definition generated from Swagger Inspector",
+            "schema" : {
+              "$ref" : "#/definitions/Model6"
+            }
+          }
+        }
+      },
+      "patch" : {
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Definition generated from Swagger Inspector",
+            "schema" : {
+              "$ref" : "#/definitions/Model7"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Model0" : {
+      "properties" : {
+        "name" : {
+          "type" : "string"
+        },
+        "category" : {
+          "type" : "string"
+        },
+        "description" : {
+          "type" : "string"
+        },
+        "price" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "inStock" : {
+          "type" : "integer",
+          "format" : "int32"
+        }
+      }
+    },
+    "Model2" : {
+      "properties" : {
+        "name" : {
+          "type" : "string"
+        },
+        "category" : {
+          "type" : "string"
+        },
+        "description" : {
+          "type" : "string"
+        },
+        "price" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "inStock" : {
+          "type" : "integer",
+          "format" : "int32"
+        }
+      }
+    },
+    "Array" : {
+      "properties" : {
+        "name" : {
+          "type" : "string"
+        },
+        "category" : {
+          "type" : "string"
+        },
+        "description" : {
+          "type" : "string"
+        },
+        "price" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "inStock" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "id" : {
+          "type" : "integer",
+          "format" : "int32"
+        }
+      }
+    },
+    "Model3" : {
+      "type" : "array",
+      "items" : {
+        "$ref" : "#/definitions/Array"
+      }
+    },
+    "Model4" : {
+      "properties" : {
+        "name" : {
+          "type" : "string"
+        },
+        "category" : {
+          "type" : "string"
+        },
+        "description" : {
+          "type" : "string"
+        },
+        "price" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "inStock" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "id" : {
+          "type" : "integer",
+          "format" : "int32"
+        }
+      }
+    },
+    "Model5" : { },
+    "Model6" : {
+      "properties" : {
+        "name" : {
+          "type" : "string"
+        },
+        "category" : {
+          "type" : "string"
+        },
+        "description" : {
+          "type" : "string"
+        },
+        "price" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "inStock" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "id" : {
+          "type" : "integer",
+          "format" : "int32"
+        }
+      }
+    },
+    "Model7" : {
+      "properties" : {
+        "name" : {
+          "type" : "string"
+        },
+        "category" : {
+          "type" : "string"
+        },
+        "description" : {
+          "type" : "string"
+        },
+        "price" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "inStock" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "id" : {
+          "type" : "integer",
+          "format" : "int32"
+        }
+      }
+    }
+  }
+}

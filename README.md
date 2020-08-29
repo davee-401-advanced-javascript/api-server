@@ -6,9 +6,11 @@
 
 ### Links and Resources
 
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [Lab 6 Pull Request](https://github.com/davee-401-advanced-javascript/api-server/pull/1)
+- [ci/cd](https://github.com/davee-401-advanced-javascript/api-server/actions) (GitHub Actions)
+- [Swagger API Docs](https://app.swaggerhub.com/apis/daveeS987/serverAPI-Practice/0.1#/info)
+<!-- - [back-end server url](http://xyz.com) (when applicable)
+- [front-end application](http://xyz.com) (when applicable) -->
 
 ### Setup
 
