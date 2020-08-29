@@ -1,18 +1,32 @@
 {
   "categories": [
     {
-      "id": 3,
-      "name": "changed using patch"
+      "id": 1,
+      "name": "electronics",
+      "description": "electronic description"
     },
     {
-      "name": "Brownies",
+      "name": "kitchen",
+      "description": "cool Kitchen description",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "tv",
+      "category": "electronics",
+      "description": "samsung tv",
+      "price": 999,
+      "inStock": 4,
       "id": 4
     },
     {
-      "random": "using put on swagger",
+      "name": "Fancy Towels",
+      "category": "bathroom",
+      "description": "fancy blue bathroom towels",
+      "price": 10,
+      "inStock": 20,
       "id": 5
     }
-  ],
-  "products": [],
-  "third": []
+  ]
 }
