@@ -13,20 +13,28 @@
   ],
   "products": [
     {
-      "name": "tv",
-      "category": "electronics",
-      "description": "samsung tv",
-      "price": 999,
-      "inStock": 4,
+      "name": "kitchen Towels",
+      "category": "kitchen",
+      "description": "fancy kitchen towels",
+      "price": 10,
+      "inStock": 20,
       "id": 4
     },
     {
-      "name": "Fancy Towels",
-      "category": "bathroom",
-      "description": "fancy blue bathroom towels",
+      "name": "kitchen Towels",
+      "category": "kitchen",
+      "description": "fancy kitchen towels",
       "price": 10,
       "inStock": 20,
       "id": 5
+    },
+    {
+      "name": "spatula",
+      "category": "kitchen",
+      "description": "wooden spatula",
+      "price": 12.99,
+      "inStock": 5,
+      "id": 6
     }
   ]
 }
