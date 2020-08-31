@@ -17,10 +17,13 @@
 
 #### `.env` requirements (where applicable)
 
-i.e.
+<!-- - `MONGODB_URI` - URL to the running mongo instance/db -->
 
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
+- Add the following into an .env file:
+
+```
+PORT = 3000
+```
 
 #### How to initialize/run your application (where applicable)
 
@@ -37,3 +40,5 @@ i.e.
 #### UML
 
 Link to an image of the UML for your application and response to events
+
+![UML](images/API-Server-UML.jpg)
