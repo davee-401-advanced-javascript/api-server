@@ -27,18 +27,21 @@ PORT = 3000
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+<!-- - e.g. `npm start` -->
+
+- Clone repository
+- Enter `npm start` or `nodemon index.js` into command line
 
 #### How to use your library (where applicable)
 
 #### Tests
 
-- How do you run tests?
+<!-- - How do you run tests?
 - Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- Describe any tests that you did not complete, skipped, etc -->
+
+- No test currently written
 
 #### UML
-
-Link to an image of the UML for your application and response to events
 
 ![UML](images/API-Server-UML.jpg)
