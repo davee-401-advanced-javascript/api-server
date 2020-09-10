@@ -43,7 +43,7 @@ MONGODB_URI=mongodb://localhost:27017/api-server
 - Any tests of note?
 - Describe any tests that you did not complete, skipped, etc -->
 
-- No test currently written
+- In the terminal enter `npm test`
 
 #### UML
 

@@ -10,5 +10,5 @@ describe('404 Error Test', () => {
     let response = await request.get('/badroute');
     expect(response.status).toEqual(404);
   });
-});
 
+});
